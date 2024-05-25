@@ -7,3 +7,21 @@
   box-sizing: border-box;
   font-family: 'Outfit', 'Poppins', sans-serif;
 }
+
+:root {
+  --malachite: #04e762ff;
+  --selective-yellow: #f5b700ff;
+  --mexican-pink: #dc0073ff;
+  --bleu-de-france: #008bf8ff;
+  --chartreuse: #89fc00ff;
+}
+
+section {
+  position: relative;
+  min-height: 100vh;
+  background-color: var(--selective-yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
